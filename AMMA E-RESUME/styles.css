@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pic1.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Make the background image fixed */
+    margin: 0;
+    padding: 0;
+    color: #333;}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    margin-bottom: 10px;
+    background-color: #e6ddd8;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-pic {
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    text-align: left;
+}
+
+.info h1 {
+    margin: 0;
+    color: #d32f2f;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #424242;
+}
+
+.contact-info span {
+    display: block;
+}
+
+.address {
+    font-size: 16px;
+    color: #424242;
+}
+.home{
+    text-align: center;
+}
+nav {
+
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 18px;
+    background-color: #8f7a6e;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+ 
+}
+
+nav ul li a:hover {
+    background-color: #e6ddd8;
+}
+
+main {
+    padding: 20px;
+    background-color: #e6ddd8;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    font-size: 24px;
+    color: #7b1fa2;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8f7a6e;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+footer .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-links li {
+    margin: 0 10px;
+}
+
+footer .social-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Center align the text within the Personal Details section */
+#personal-details {
+    background-color: #e6ddd8; /* Adjust background color and transparency */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center; /* Center align text */
+    margin: 20px auto; /* Center the container horizontally */
+    width: 80%; /* Adjust width as needed */
+}
+
+#personal-details h2 {
+    font-size: 30px;
+    color: #dd3737;
+}
+
+#personal-details p {
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+#personal-details .details {
+    text-align: left; /* Left align individual details */
+    display: inline-block;
+    margin: 0 auto;
+
+ 
+}
+/* General container for Curriculum Vitae */
+#personal-details {
+    background-color: #e6ddd8(255, 255, 255, 0.8); /* Adjust background color and transparency */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center; /* Center align text */
+    margin: 20px auto; /* Center the container horizontally */
+    width: 80%; /* Adjust width as needed */
+}
+
+
+#personal-details .details {
+    text-align: center; /* Center align the content */
+}
+
+#personal-details .details img {
+    width: 350px; /* Adjust the width of the images */
+    height: 200px; /* Maintain aspect ratio */
+    margin: 20px; /* Add margin around the images */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}
+
+#personal-details .details h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#personal-details .details p {
+    font-size: 16px;
+    margin: 10px 0; /* Add margin between paragraphs */
+    color: #666;
+}
+
+
